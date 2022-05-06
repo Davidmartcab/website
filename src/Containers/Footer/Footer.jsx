@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className='website__footer section__padding'>
       <div className='website__footer-contact'>
-        <h1 aling="center" id="contacto">Contato</h1>
+        <h1 aling="center" id="contacto">Contacto</h1>
         <div className='website__footer-contact-elements'>
 
           {contacto.map((cont, index) => (
