@@ -16,6 +16,7 @@
 @media screen and (max-width: 1000px){
     .website__footer-contact-subelements {
         margin-top: 1rem;
+        padding: 1rem;
     }
 }
 
