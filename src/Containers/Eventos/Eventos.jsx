@@ -1,32 +1,8 @@
 import React from 'react'
 import './eventos.css';
+import { eventos } from '../../data/eventos.js';
+import { proximoseventos } from '../../data/proximoseventos.js';
 
-const eventos = [
-    {nombre: '1º Jornada Liga Nacional', 
-    fecha: '27 - 28 de noviembre',
-    lugar : 'Piscina Municipal Valdesanchuela, Valdemoro'},
-    {nombre: '1º Jornada Liga Nacional', 
-    fecha: '27 - 28 de noviembre',
-    lugar : 'Piscina Municipal Valdesanchuela, Valdemoro'},
-    {nombre: '1º Jornada Liga Nacional', 
-    fecha: '27 - 28 de noviembre',
-    lugar : 'Piscina Municipal Valdesanchuela, Valdemoro'},
-    {nombre: '1º Jornada Liga Nacional', 
-    fecha: '27 - 28 de noviembre',
-    lugar : 'Piscina Municipal Valdesanchuela, Valdemoro'},
-]
-
-const ProximosEventos = [
-    {nombre: '4º Jornada de liga nacional', 
-    fecha: '24 - 25 de abril',
-    lugar : 'Polideportivo Príncipe Felipe, Arganda del Rey'},
-    {nombre: '4º Jornada de liga nacional', 
-    fecha: '24 - 25 de abril',
-    lugar : 'Polideportivo Príncipe Felipe, Arganda del Rey'},
-    {nombre: '4º Jornada de liga nacional', 
-    fecha: '24 - 25 de abril',
-    lugar : 'Polideportivo Príncipe Felipe, Arganda del Rey'},
-]
 
 const Eventos = () => {
   return (
@@ -44,7 +20,7 @@ const Eventos = () => {
         </div>
         <h1 id='proximoseventos'>Próximos Eventos</h1>
         <div className='website__eventos-contentiner'>
-            {ProximosEventos.map((evento, index) => (
+            {proximoseventos.map((evento, index) => (
                 <div className='website__eventos-contentiner-evento'>
                     <h2>{evento.nombre}</h2>
                     <p><c>Fecha:</c> {evento.fecha}</p>
