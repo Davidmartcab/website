@@ -1,0 +1,30 @@
+.website__footer-contact-subelements {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 10ms;
+    margin: 1rem;
+}
+
+.website__footer-contact-subelements:hover {
+    background-color: rgba(0, 255, 240, 0.25);
+}
+
+@media screen and (max-width: 1000px){
+    .website__footer-contact-subelements {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .website__footer-contact-subelements p{
+        display: none;
+    }
+
+    .website__footer-contact-subelements h2{
+        text-align: center;
+    }
+}

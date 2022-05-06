@@ -1,0 +1,32 @@
+.website__header {
+    border-bottom: 5px solid var(--color-blm);
+}
+
+.website__header-content {
+    color: var(--color-blm);
+}
+
+.website__header-content h1 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.website__header-content h2 {
+    font-family: var(--font-family);
+    font-size: 25;
+    font-weight: 700;
+}
+
+.website__header-content p {
+    font-family: var(--font-family);
+    font-size: 20;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 1000px) {
+    .website__header-content p {
+        width: 75%;
+    }
+}
+    
