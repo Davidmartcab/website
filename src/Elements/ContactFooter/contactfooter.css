@@ -17,6 +17,9 @@
     .website__footer-contact-subelements {
         margin-top: 1rem;
     }
+    .website__footer-contact-subelements h2 {
+        padding-left: 1rem;
+    }
 }
 
 @media screen and (max-width: 550px){
