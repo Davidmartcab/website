@@ -15,7 +15,7 @@ const Footer = () => {
         <div className='website__footer-contact-elements'>
 
           {contacto.map((cont, index) => (
-                      <ContactFooter key={index} cont={cont} />
+                <ContactFooter key={index} cont={cont} />
               )
             )
           }
