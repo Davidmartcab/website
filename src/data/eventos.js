@@ -11,7 +11,7 @@ export const eventos = [
                     {nombre: 'Prueba 1', tiempo: '0:00:00'},
                     {nombre: 'Prueba 2', tiempo: '0:00:00'},
                 ],
-                insta: "null"
+                insta: 'insta 1'
             },
             {
                 nombre: 'Nombre 2',
@@ -20,7 +20,7 @@ export const eventos = [
                     {nombre: 'Prueba 1', tiempo: '0:00:00'},
                     {nombre: 'Prueba 2', tiempo: '0:00:00'},
                 ],
-                insta: "null"
+                insta: ''
             },
         ]
     },
@@ -36,7 +36,7 @@ export const eventos = [
                     {nombre: 'Prueba 1', tiempo: '0:00:00'},
                     {nombre: 'Prueba 2', tiempo: '0:00:00'},
                 ],
-                insta: 'hola'
+                insta: ''
             },
             {
                 nombre: 'Nombre 2',
@@ -45,7 +45,7 @@ export const eventos = [
                     {nombre: 'Prueba 1', tiempo: '0:00:00'},
                     {nombre: 'Prueba 2', tiempo: '0:00:00'},
                 ],
-                insta: ''
+                insta: 'insta 2'
             },
             {
                 nombre: 'Nombre 3',
