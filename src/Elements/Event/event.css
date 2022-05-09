@@ -6,7 +6,7 @@
 }
 
 .website__eventos-contentiner-evento:hover {
-    background-color: rgba(0, 255, 240, 0.25);
+    background-color: var(--hover-color);
 }
 
 .website__events-resultados {
@@ -23,10 +23,6 @@
     background-color: var(--color-bg);
 }
 
-.with_insta {
-    text-decoration: underline;
-}
-
 .website__events-resultados-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,7 +35,7 @@
 }
 
 .website__events-resultados-person:nth-child(2n) {
-    border-left: 2px solid black;
+    border-left: 2px solid var(--color-blm);
 }
 
 @media screen and (max-width: 1000px) {

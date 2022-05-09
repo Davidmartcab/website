@@ -11,7 +11,7 @@
 }
 
 .website__footer-contact-subelements:hover {
-    background-color: rgba(0, 255, 240, 0.25);
+    background-color: var(--hover-color);
 }
 
 @media screen and (max-width: 1000px){

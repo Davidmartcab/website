@@ -35,6 +35,43 @@ a {
     padding: 4rem 6rem;
 }
 
+.insta {
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, #405DE6 0%, #833AB4 33%, #E1306C 66%, #FD1D1D 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, #405DE6 0%, #833AB4 33%, #E1306C 66%, #FD1D1D 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, #405DE6 0%, #833AB4 33%, #E1306C 66%, #FD1D1D 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FD1D1D', endColorstr='#405DE6', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, #405DE6 0%, #833AB4 33%, #E1306C 66%, #FD1D1D 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, #405DE6 0%, #833AB4 33%, #E1306C 66%, #FD1D1D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.facebook {
+    background: #3b5998;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.twitter {
+    background: #1DA1F2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 /* Esto sirve para poner animaciones: https://animista.net/play/basic */
 .scale-up-center {

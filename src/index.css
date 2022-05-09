@@ -15,6 +15,7 @@
 
   --color-bg: #fff; /* Color de fondo */
   --color-blm: #000; /* Color de letras y bordes */
-  --color-bgTop : #0091ff; /* Color de Navbar */
+  --color-bgTop: #0091ff; /* Color de Navbar */
+  --hover-color: rgba(0, 255, 240, 0.25); /* Color de hover*/
 
 }

@@ -9,10 +9,19 @@ const Header = () => {
         <h2>¿Quienes somos?</h2>
         <p>
           Somos Salvamento Arganda, un club sin ánimo de lucro en el que ponemos en práctica la enseñanza del salvamento deportivo, llegando a competir a nivel territorial y nacional, y a su vez enseñamos y ayudamos a los alumnos a la preparación para la titulación en el salvamento profesional.<br></br>
-          El club dispone de varios grupos, siendo estos:<br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;-Escuela lúdica para los niños.<br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;-Grupo federados, en el que preparamos más especializado en competiciones.<br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;-Grupo de master, que son para adultos mayores de 30 años que busquen hacer un deporte completo y motivación hacia las competiciones.
+          El club dispone de varios grupos, siendo estos:<br></br><br></br>
+          <div>
+            <strong>-Escuela Deportiva:</strong> Grupos de niños y niñas desde los 8 años hasta los 16, donde aprenderán técnicas de Salvamento y primeros auxilios, en un entorno ameno y divertido.
+            Pudiendo participar en competiciones organizadas por el Ayuntamiento de Madrid, Comunidad de Madrid, Ayuntamiento de Arganda y el propio Club.
+          </div>
+          <br></br>
+          <div>
+            <strong>-Deportistas Federados:</strong> Chicos y chicas desde los 16 años que reciben una preparación más específica para competir o para mejorar y perfeccionar técnicas.
+          </div>
+          <br></br>
+          <div>
+            <strong>-Escuela Profesional:</strong> Ayudamos a los deportistas que quieren obtener el título de Socorrista a prepararse para ofrontar las pruebas.
+          </div>
         </p>
         <br />
         <h2>Objetivos</h2>
