@@ -22,12 +22,6 @@
     grid-auto-rows: minmax(100px, auto);
 }
 
-.website__eventos-contentiner-evento {
-    border: 5px solid var(--color-blm);
-    border-radius: 10px;
-    padding: .5rem 1rem;
-}
-
 @media screen and (max-width: 1000px) {
     .website__eventos-contentiner {
         display: flex;

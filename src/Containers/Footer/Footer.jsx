@@ -1,5 +1,6 @@
 import React from 'react'
-import ContactFooter from '../../Elements/ContactFooter/ContactFooter';
+// import ContactFooter from '../../Elements/ContactFooter/ContactFooter';
+import { ContactFooter } from '../../Elements';
 import './footer.css';
 import { contacto } from '../../data/contacto.js';
 
