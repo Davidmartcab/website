@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className='website__navbar'>
       <div className='website__navbar-links'>
         <div className='website__navbar-links_logo'>
-          <img src={logo} alt='logo' className='flip-horizontal-bottom'/>
+          <img src={logo} alt='logo' /*className='flip-horizontal-bottom'*//>
         </div>
         <div className='website__navbar-links_container'>
           <Menu />

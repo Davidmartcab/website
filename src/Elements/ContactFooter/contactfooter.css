@@ -17,7 +17,7 @@
     .website__footer-contact-subelements {
         margin-top: 1rem;
     }
-    .website__footer-contact-subelements h2 {
+    .website__footer-contact-subelements h2, .website__footer-contact-subelements p {
         padding-left: 1rem;
     }
 }
