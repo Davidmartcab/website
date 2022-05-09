@@ -30,7 +30,7 @@ const Event = (props) => {
         <div className='website__events-resultados-grid'>
             {props.evento.resultados.map((result, index) => (
               <div className='website__events-resultados-person'>
-                {!result.insta == '' ? <a href={'https://www.instagram.com/'+result.insta+'/'} className='with_insta'><h3>{result.nombre}</h3></a> : <h3>{result.nombre}</h3>}
+                {!result.insta === '' ? <a href={'https://www.instagram.com/'+result.insta+'/'} className='with_insta'><h3>{result.nombre}</h3></a> : <h3>{result.nombre}</h3>}
                 {/* <a href={'https://www.instagram.com/'+result.insta}><h3>{result.nombre}</h3></a> */}
                 <p>{result.categoria}</p>
                 {result.pruebas.map((prueba, index2) => (
@@ -62,7 +62,7 @@ const Event = (props) => {
             {toggleEvent && props.evento.resultados.length > 0 && (
                   <EventPlus />
             )}
-            {toggleEvent && props.evento.resultados.length == 0 && (
+            {toggleEvent && props.evento.resultados.length === 0 && (
                   <Proximamente />
             )}
         </div>
