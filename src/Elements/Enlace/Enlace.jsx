@@ -9,7 +9,7 @@ const Enlace = (props) => {
   return (
     <a href={urlI}>
       <div className='website__enlace-container'>
-          <img src={props.enlace.img} />
+          <img src={props.enlace.img} alt={props.enlace.nombre}/>
           <h3>{props.enlace.nombre}</h3>
       </div>
     </a>

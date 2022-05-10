@@ -9,7 +9,7 @@ const Patro = (props) => {
   return (
     <a href={urlI}>
       <div className='website__patro-container'>
-          <img src={props.patro.img} />
+          <img src={props.patro.img} alt={props.patro.nombre}/>
           <h3>{props.patro.nombre}</h3>
       </div>
     </a>
