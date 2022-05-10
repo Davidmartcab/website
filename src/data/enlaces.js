@@ -16,5 +16,10 @@ export const enlaces = [
         url: 'https://www.ayto-arganda.es',
         img: ayunt_arganda
     },
+    {
+        nombre: '',
+        url: '',
+        img: placeHolder
+    },
 
 ]
