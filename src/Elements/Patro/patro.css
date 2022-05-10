@@ -2,9 +2,14 @@
     width: 62px;
     height: 62px;
     border-radius: 100px;
+    margin: auto;
 }
 
 .website__patro-container {
     display: grid;
     justify-content: center;
+}
+
+.website__patro-container h3 {
+    text-align: center;
 }

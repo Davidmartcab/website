@@ -1,4 +1,4 @@
-import { fmss, rfess, ayunt_arganda } from './importFotos';
+import { fmss, rfess, ayunt_arganda, placeHolder } from './importFotos';
 
 export const enlaces = [
     {
