@@ -1,0 +1,15 @@
+.website__enlace-container img {
+    width: 62px;
+    height: 62px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.website__enlace-container {
+    display: grid;
+    justify-content: center;
+}
+
+.website__enlace-container h3 {
+    text-align: center;
+}

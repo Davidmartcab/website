@@ -1,6 +1,29 @@
+.website__patrocinadores {
+    border-bottom: 5px solid var(--color-blm);
+}
+
 .website__patrocinadores-elements {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .website__patrocinadores-elements {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .website__patrocinadores-elements {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .website__patrocinadores-elements {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

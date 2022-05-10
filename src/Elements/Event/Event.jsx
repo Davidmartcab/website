@@ -8,8 +8,6 @@ const Event = (props) => {
 
   useEffect(() => {
     const checkIfClickedOutside = e => {
-      // If the menu is open and the clicked target is not within the menu,
-      // then close the menu
       if (toggleEvent && ref.current && !ref.current.contains(e.target)) {
         setToggleEvent(false)
       }
@@ -18,7 +16,6 @@ const Event = (props) => {
     document.addEventListener("mousedown", checkIfClickedOutside)
 
     return () => {
-      // Cleanup the event listener
       document.removeEventListener("mousedown", checkIfClickedOutside)
     }
   }, [toggleEvent])
@@ -30,7 +27,7 @@ const Event = (props) => {
         <div className='website__events-resultados-grid'>
             {props.evento.resultados.map((result, index) => (
               <div className='website__events-resultados-person'>
-                {result.insta.length === 0 ? <h3>{result.nombre}b</h3> : <a href={'https://www.instagram.com/'+result.insta+'/'}><h3 className='insta'>{result.nombre}a</h3></a>}
+                {result.insta.length === 0 ? <h3>{result.nombre}</h3> : <a href={'https://www.instagram.com/'+result.insta+'/'}><h3 className='insta'>{result.nombre}</h3></a>}
                 <p>{result.categoria}</p>
                 {result.pruebas.map((prueba, index2) => (
                     <p>-{prueba.nombre}: {prueba.tiempo}</p>

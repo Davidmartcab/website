@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Navbar } from './Elements';
-import { Footer, Header, Historia, Eventos, Patrocinadores } from './Containers';
+import { Footer, Header, Historia, Eventos, Patrocinadores, Enlaces } from './Containers';
 import './app.css';
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
       <Historia />
       <Eventos />
       <Patrocinadores />
+      <Enlaces />
       <Footer />
     </div>
   )

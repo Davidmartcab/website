@@ -1,52 +1,64 @@
-import { prueba, Patro2 } from './importFotos';
+import { patro1 } from './importFotos';
 
 export const patro = [
     {
         nombre: 'Patro 1',
-        url: prueba
+        url: '',
+        img: patro1
     },
     {
         nombre: 'Patro 2',
-        url: Patro2
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 1',
-        url: prueba
+        nombre: 'Patro 3',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 2',
-        url: Patro2
+        nombre: 'Patro 4',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 1',
-        url: prueba
+        nombre: 'Patro 5',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 2',
-        url: Patro2
+        nombre: 'Patro 6',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 1',
-        url: prueba
+        nombre: 'Patro 7',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 2',
-        url: Patro2
+        nombre: 'Patro 8',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 1',
-        url: prueba
+        nombre: 'Patro 9',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 2',
-        url: Patro2
+        nombre: 'Patro 10',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 1',
-        url: prueba
+        nombre: 'Patro 11',
+        url: '',
+        img: patro1
     },
     {
-        nombre: 'Patro 2',
-        url: Patro2
+        nombre: 'Patro 12',
+        url: '',
+        img: patro1
     },
 ]

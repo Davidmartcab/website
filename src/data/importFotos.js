@@ -1,3 +1,4 @@
-export { default as prueba } from '../assets/prueba.png';
-export { default as Patro1 } from '../assets/Patro1.svg';
-export { default as Patro2 } from '../assets/Patro2.svg';
+export { default as patro1 } from '../assets/patro1.svg';
+export { default as ayunt_arganda } from '../assets/ayunt_arganda.svg';
+export { default as fmss } from '../assets/fmss.svg';
+export { default as rfess } from '../assets/rfess.svg';

@@ -10,7 +10,7 @@ const Header = () => {
         <p>
           Somos Salvamento Arganda, un club sin ánimo de lucro en el que ponemos en práctica la enseñanza del salvamento deportivo, llegando a competir a nivel territorial y nacional, y a su vez
           enseñamos y ayudamos a los alumnos a la preparación para la titulación en el salvamento profesional.<br/>
-          Nos encontramos en la <strong>Ciudad Deportiva Principe Felípe</strong>, <strong>C/ San Sebastián, 6, 8</strong>, <strong>Arganda del Rey</strong>.<br/><br/>
+          Nos encontramos en la <a href="https://goo.gl/maps/1iL98Dq1QisNuxL59" className='insta'><strong>Ciudad Deportiva Principe Felípe, C/ San Sebastián, 6, 8, Arganda del Rey</strong></a>.<br/><br/>
           El club dispone de varios grupos, siendo estos:<br/><br/>
           <div>
             <strong>-Escuela Deportiva:</strong> Grupos de niños y niñas desde los 8 años hasta los 16, donde aprenderán técnicas de Salvamento y primeros auxilios, en un entorno ameno y divertido.

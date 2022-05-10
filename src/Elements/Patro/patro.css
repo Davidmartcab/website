@@ -1,4 +1,10 @@
-img {
+.website__patro-container img {
     width: 62px;
     height: 62px;
+    border-radius: 100px;
+}
+
+.website__patro-container {
+    display: grid;
+    justify-content: center;
 }

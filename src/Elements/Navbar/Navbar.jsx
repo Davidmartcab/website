@@ -10,6 +10,7 @@ const Menu = () => (
       <p><a href='#eventos'>Eventos</a></p>
       <p><a href='#proximoseventos'>Próximos Eventos</a></p>
       <p><a href='#patrocinadores'>Patrocinadores</a></p>
+      <p><a href='#enlaces'>Enlaces</a></p>
       <p><a href='#contacto'>Contacto</a></p>
     </>
   )
